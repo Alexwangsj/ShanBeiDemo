@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/main_background"
+    tools:context="com.shanbei.shanbeidemo.activity.MainActivity">
+
+    <LinearLayout
+        android:layout_marginTop="80dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+        <View
+            android:layout_width="145dp"
+            android:layout_height="54dp"
+            android:background="@mipmap/title"/>
+    </LinearLayout>
+    
+
+
+    <Button
+        android:id="@+id/searchWorld"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="300dp"
+        android:text="@string/search_word"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/showPicture"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="380dp"
+        android:text="@string/show_picture"
+        android:textSize="25dp"/>
+
+
+</RelativeLayout>
